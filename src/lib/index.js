@@ -1,3 +1,3 @@
-import Avatar from './Avatar.svelte'
+import Avatar from './Avatar.svelte';
 
 export {Avatar}

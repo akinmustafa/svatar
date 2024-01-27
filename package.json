@@ -1,6 +1,6 @@
 {
 	"name": "svatar",
-	"version": "0.0.9",
+	"version": "1.0.0",
 	"private": false,
 	"description": "An avatar component for Svelte.",
 	"repository": {
@@ -21,7 +21,8 @@
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"svelte": "./dist/index.js"
+			"svelte": "./dist/index.js",
+			"default": "./dist/index.js"
 		}
 	},
 	"files": [
