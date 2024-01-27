@@ -1,6 +1,6 @@
 {
 	"name": "svatar",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"private": false,
 	"description": "An avatar component for Svelte.",
 	"repository": {
@@ -19,10 +19,11 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 
+	"svelte": "src/lib/Avatar.svelte",
+
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"svelte": "./src/lib/Avatar.svelte",
 			"main": "./dist/index.js"
 		}
 	},
